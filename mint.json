@@ -1,65 +1,45 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentation Starter Kit",
+  "name": "Abstract API",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
+    "primary": "#687DED",
+    "light": "#A3B1FF",
+    "dark": "#1B1643"
   },
   "topbarLinks": [
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Contact Us",
+      "url": "team@abstractapi.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "url": "https://app.abstractapi.com/users/signup"
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
-    },
-    {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "name": "Write for Us",
+      "icon": "pencil",
+      "url": "https://www.abstractapi.com/write-for-us"
     }
   ],
   "navigation": [
     {
-      "group": "Home",
-      "pages": ["introduction", "features"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "API's to Verify",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "apis-to-verify/email-validation",
+        "apis-to-verify/phone-validation"
       ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "facebook": "https://www.facebook.com/abstractapi",
+    "twitter": "https://twitter.com/abstractapi",
+    "linkedin": "https://www.linkedin.com/company/abstractapi",
+    "website": "https://www.abstractapi.com/"
   }
 }
