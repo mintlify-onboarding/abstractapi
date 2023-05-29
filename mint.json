@@ -12,27 +12,31 @@
   },
   "topbarLinks": [
     {
-      "name": "Contact Us",
-      "url": "team@abstractapi.com"
+      "name": "Pricing",
+      "url": "https://www.abstractapi.com/api/phone-validation-api#pricing"
+    },
+    {
+      "name": "Login",
+      "url": "https://app.abstractapi.com/users/login"
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
+    "name": "Signup",
     "url": "https://app.abstractapi.com/users/signup"
   },
   "anchors": [
     {
-      "name": "Write for Us",
-      "icon": "pencil",
-      "url": "https://www.abstractapi.com/write-for-us"
+      "name": "Contact Us",
+      "icon": "envelope",
+      "url": "mailto:team@abstractapi.com"
     }
   ],
   "navigation": [
     {
       "group": "API's to Verify",
       "pages": [
-        "apis-to-verify/email-validation",
-        "apis-to-verify/phone-validation"
+        "email-validation",
+        "phone-validation"
       ]
     }
   ],
